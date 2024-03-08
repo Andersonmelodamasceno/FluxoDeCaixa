@@ -1,0 +1,23 @@
+        /* Estilo para os cartões */
+        .card {
+            background-color: #3498db !important;
+            color: #ffffff !important;
+            margin-bottom: 25px !important;
+        }
+
+        /* Estilo para os botões */
+        .btn-secondary {
+            background-color: #ffffff !important;
+            color: #3498db !important;
+            width: 250px !important; /* Ajuste conforme necessário */
+        }
+
+        /* Aumentar o tamanho do texto nos cartões */
+        .card-body {
+            font-size: 1.5rem !important; /* Ajuste conforme necessário */
+        }
+
+        /* Ajustar o tamanho do rótulo (label) */
+        label[for^="floatingInput"] {
+            font-size: 1rem !important; /* Ajuste conforme necessário */
+        }
