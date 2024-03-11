@@ -35,8 +35,11 @@ function mostrarModal(modalId) {
     var modalInstance = criarModal(modalId, 'Modal Title', 'Modal Content');
     modalInstance.show();
 }
-//modelbanco
-function mostrarModalBanco() {
-    var modalBanco = new bootstrap.Modal(document.getElementById('modalBanco'));
-    modalBanco.show();
+
+// Função Para Model Banco 
+function abrirNovaModal() {
+    $('#modalBanco').modal('show');
 }
+
+// Event listener para o botão da nova modal
+document.querySelector('#modalBanco').addEventListener('click', abrirNovaModal);
