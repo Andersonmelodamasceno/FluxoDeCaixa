@@ -1,23 +1,58 @@
-        /* Estilo para os cartões */
-        .card {
-            background-color: #3498db !important;
-            color: #ffffff !important;
-            margin-bottom: 25px !important;
-        }
+/* Adicione este estilo para o background color */
+body {
+    background-color: #ecf0f1; /* Substitua pela cor desejada */
+}
 
-        /* Estilo para os botões */
-        .btn-secondary {
-            background-color: #ffffff !important;
-            color: #3498db !important;
-            width: 250px !important; /* Ajuste conforme necessário */
-        }
+/* Adicione este estilo para centralizar os cartões e tornar responsivo */
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #ecf0f1; /* Substitua pela mesma cor do body ou outra cor desejada */
+}
 
-        /* Aumentar o tamanho do texto nos cartões */
-        .card-body {
-            font-size: 1.5rem !important; /* Ajuste conforme necessário */
-        }
+/* Estilo para os cartões */
+.card {
+    background-color: #3498db !important;
+    color: #ffffff !important;
+    margin-bottom: 25px !important;
+}
 
-        /* Ajustar o tamanho do rótulo (label) */
-        label[for^="floatingInput"] {
-            font-size: 1rem !important; /* Ajuste conforme necessário */
-        }
+/* Estilo para os botões */
+.btn-secondary {
+    background-color: #ffffff !important;
+    color: #3498db !important;
+    width: 100%; /* Ocupar 100% da largura do contêiner */
+    margin-top: 10px; /* Adicionar um espaçamento superior */
+}
+
+/* Aumentar o tamanho do texto nos cartões */
+.card-body {
+    font-size: 1.5rem !important; /* Ajuste conforme necessário */
+}
+
+/* Ajustar o tamanho do rótulo (label) */
+label[for^="floatingInput"] {
+    font-size: 1rem !important; /* Ajuste conforme necessário */
+}
+
+/* Adicionar estilos para tornar a tabela responsiva */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+/* Adicionar estilo para células de cabeçalho na tabela responsiva */
+.table th {
+    background-color: #2980b9;
+    color: #fff;
+}
